@@ -1,14 +1,11 @@
-/*
-  You can use import statements to include partials:
- */
-@import "imports/reset.css";
+/* External libraries */
+@import './imports/_reset';
 
+/* Variables */
+@import "imports/_variables.css";
+@import "imports/_colors.css";
+@import "imports/_media-queries.css";
 
-/*
-  Or add your statements here:
- */
-body{
-  font-family: sans-serif;
-  font-size: 1em;
-  text-align: center;
-}
+/* Modules */
+@import "imports/_type-scale.css";
+@import "imports/_typography.css";
